@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec28bb90-edee-4ae9-8a37-de9aa07dd337" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>src</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UKKIJ0eUtVZfMMWJgKDt0dsQj1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CatalogueServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CatalogueService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frontline.CatalogueService.CatalogueServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec28bb90-edee-4ae9-8a37-de9aa07dd337" name="Default Changelist" comment="" />
+      <created>1561114126321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561114126321</updated>
+      <workItem from="1561114130650" duration="6760000" />
+      <workItem from="1561261397146" duration="12297000" />
+      <workItem from="1575099799665" duration="16997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1275" height="388" key="GridCell.Tab.0.bottom" timestamp="1575122669102">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="388" key="GridCell.Tab.0.bottom/45.24.1321.744@45.24.1321.744" timestamp="1575122669102" />
+    <state width="1275" height="388" key="GridCell.Tab.0.center" timestamp="1575122669101">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="388" key="GridCell.Tab.0.center/45.24.1321.744@45.24.1321.744" timestamp="1575122669101" />
+    <state width="1275" height="388" key="GridCell.Tab.0.left" timestamp="1575122669100">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="388" key="GridCell.Tab.0.left/45.24.1321.744@45.24.1321.744" timestamp="1575122669100" />
+    <state width="1275" height="388" key="GridCell.Tab.0.right" timestamp="1575122669101">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="388" key="GridCell.Tab.0.right/45.24.1321.744@45.24.1321.744" timestamp="1575122669101" />
+    <state width="1275" height="388" key="GridCell.Tab.1.bottom" timestamp="1575122669104">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="388" key="GridCell.Tab.1.bottom/45.24.1321.744@45.24.1321.744" timestamp="1575122669104" />
+    <state width="1275" height="388" key="GridCell.Tab.1.center" timestamp="1575122669103">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="388" key="GridCell.Tab.1.center/45.24.1321.744@45.24.1321.744" timestamp="1575122669103" />
+    <state width="1275" height="388" key="GridCell.Tab.1.left" timestamp="1575122669103">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="388" key="GridCell.Tab.1.left/45.24.1321.744@45.24.1321.744" timestamp="1575122669103" />
+    <state width="1275" height="388" key="GridCell.Tab.1.right" timestamp="1575122669104">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="388" key="GridCell.Tab.1.right/45.24.1321.744@45.24.1321.744" timestamp="1575122669104" />
+    <state x="198" y="34" key="SettingsEditor" timestamp="1575099819629">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state x="198" y="34" key="SettingsEditor/45.24.1321.744@45.24.1321.744" timestamp="1575099819629" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
