@@ -30,7 +30,7 @@ public class MSchainCertHandler {
 
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<MultiValueMap<String, String>>(map, headers);
 
-        ResponseEntity<JsonNode> response = restTemplate.postForEntity( "http://18.232.207.225:3000/api/eval", request , JsonNode.class );
+        ResponseEntity<JsonNode> response = restTemplate.postForEntity( "http://52.45.29.135:3000/api/eval", request , JsonNode.class );
         boolean validity = response.getBody().get("data").get("validity").asBoolean();
         System.out.println("from mschain validity checker");
         System.out.println(response.getBody().get("data").get("validity"));
