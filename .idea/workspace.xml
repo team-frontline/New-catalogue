@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec28bb90-edee-4ae9-8a37-de9aa07dd337" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/controller/ResponseHeaderFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CatalogueService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogueService.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/CatalogueServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/CatalogueServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/utils/CertInvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/utils/CertInvalidException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/utils/CertX509Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/utils/CertX509Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/utils/MSchainCertHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/utils/MSchainCertHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CatalogueService-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CatalogueService-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/catalogue123.csr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/catalogue123.key" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/CatalogueServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/CatalogueServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/utils/CertX509Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/utils/CertX509Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/utils/CertificateState.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/utils/MSchainCertHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/utils/MSchainCertHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo-store2.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms-catelogue.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms2-store.jks" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms2-store.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/docker/CatalogueService-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.frontline.CatalogueService.CatalogueServiceApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.frontline.CatalogueService.CatalogueServiceApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.frontline.CatalogueService.CatalogueServiceApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.frontline.CatalogueService.CatalogueServiceApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/image_info.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +96,48 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.frontline.CatalogueService.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CatalogueServiceApplication">
+    <configuration name="CatalogueServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CatalogueService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frontline.CatalogueService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.frontline.CatalogueService" />
+      <option name="MAIN_CLASS_NAME" value="com.frontline.CatalogueService.CatalogueServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogueServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CatalogueService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frontline.CatalogueService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.frontline.CatalogueService" />
+      <option name="MAIN_CLASS_NAME" value="com.frontline.CatalogueService.CatalogueServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatalogueServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="CatalogueService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.frontline.CatalogueService.CatalogueServiceApplication" />
@@ -81,6 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CatalogueServiceApplicationTests" />
+        <item itemvalue="JUnit.CatalogueServiceApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -110,7 +180,15 @@
       <workItem from="1575282321822" duration="1013000" />
       <workItem from="1575446621988" duration="10206000" />
       <workItem from="1575475908808" duration="835000" />
-      <workItem from="1575491779325" duration="109000" />
+      <workItem from="1575491779325" duration="1336000" />
+      <workItem from="1575493131610" duration="5113000" />
+      <workItem from="1575528748866" duration="291000" />
+      <workItem from="1575529071232" duration="16000" />
+      <workItem from="1575529910233" duration="2616000" />
+      <workItem from="1575536458087" duration="4345000" />
+      <workItem from="1575572417376" duration="16018000" />
+      <workItem from="1575630477053" duration="18477000" />
+      <workItem from="1575691442406" duration="4638000" />
     </task>
     <servers />
   </component>
@@ -122,58 +200,171 @@
       <screen x="45" y="24" width="1321" height="744" />
     </state>
     <state x="305" y="44" key="#Intentions/45.24.1321.744@45.24.1321.744" timestamp="1575460347861" />
+    <state x="518" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1575686502441">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state x="518" y="95" key="#com.intellij.ide.util.MemberChooser/45.24.1321.744@45.24.1321.744" timestamp="1575686502441" />
+    <state x="443" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575602538099">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state x="443" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/45.24.1321.744@45.24.1321.744" timestamp="1575602538099" />
+    <state x="578" y="86" key="#xdebugger.evaluate" timestamp="1575643547273">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state x="578" y="86" key="#xdebugger.evaluate/45.24.2687.744@45.24.2687.744" timestamp="1575643547273" />
     <state x="493" y="140" key="FileChooserDialogImpl" timestamp="1575207003100">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
     <state x="493" y="140" key="FileChooserDialogImpl/45.24.1321.744@45.24.1321.744" timestamp="1575207003100" />
-    <state width="1275" height="241" key="GridCell.Tab.0.bottom" timestamp="1575475878491">
+    <state width="1275" height="97" key="GridCell.Tab.0.bottom" timestamp="1575697635752">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state width="1275" height="510" key="GridCell.Tab.0.bottom/45.24.1321.744@45.24.1321.744" timestamp="1575693972829" />
+    <state width="1275" height="97" key="GridCell.Tab.0.bottom/45.24.2687.744@45.24.2687.744" timestamp="1575697635752" />
+    <state width="1275" height="97" key="GridCell.Tab.0.center" timestamp="1575697635750">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state width="1275" height="510" key="GridCell.Tab.0.center/45.24.1321.744@45.24.1321.744" timestamp="1575693972829" />
+    <state width="1275" height="97" key="GridCell.Tab.0.center/45.24.2687.744@45.24.2687.744" timestamp="1575697635750" />
+    <state width="1275" height="97" key="GridCell.Tab.0.left" timestamp="1575697635750">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state width="1275" height="510" key="GridCell.Tab.0.left/45.24.1321.744@45.24.1321.744" timestamp="1575693972828" />
+    <state width="1275" height="97" key="GridCell.Tab.0.left/45.24.2687.744@45.24.2687.744" timestamp="1575697635750" />
+    <state width="1275" height="97" key="GridCell.Tab.0.right" timestamp="1575697635750">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state width="1275" height="510" key="GridCell.Tab.0.right/45.24.1321.744@45.24.1321.744" timestamp="1575693972829" />
+    <state width="1275" height="97" key="GridCell.Tab.0.right/45.24.2687.744@45.24.2687.744" timestamp="1575697635750" />
+    <state width="1275" height="97" key="GridCell.Tab.1.bottom" timestamp="1575697635758">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state width="1275" height="510" key="GridCell.Tab.1.bottom/45.24.1321.744@45.24.1321.744" timestamp="1575693972831" />
+    <state width="1275" height="97" key="GridCell.Tab.1.bottom/45.24.2687.744@45.24.2687.744" timestamp="1575697635758" />
+    <state width="1275" height="97" key="GridCell.Tab.1.center" timestamp="1575697635753">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state width="1275" height="510" key="GridCell.Tab.1.center/45.24.1321.744@45.24.1321.744" timestamp="1575693972830" />
+    <state width="1275" height="97" key="GridCell.Tab.1.center/45.24.2687.744@45.24.2687.744" timestamp="1575697635753" />
+    <state width="1275" height="97" key="GridCell.Tab.1.left" timestamp="1575697635752">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state width="1275" height="510" key="GridCell.Tab.1.left/45.24.1321.744@45.24.1321.744" timestamp="1575693972830" />
+    <state width="1275" height="97" key="GridCell.Tab.1.left/45.24.2687.744@45.24.2687.744" timestamp="1575697635752" />
+    <state width="1275" height="97" key="GridCell.Tab.1.right" timestamp="1575697635753">
+      <screen x="45" y="24" width="2687" height="744" />
+    </state>
+    <state width="1275" height="510" key="GridCell.Tab.1.right/45.24.1321.744@45.24.1321.744" timestamp="1575693972830" />
+    <state width="1275" height="97" key="GridCell.Tab.1.right/45.24.2687.744@45.24.2687.744" timestamp="1575697635753" />
+    <state width="1275" height="510" key="GridCell.Tab.2.bottom" timestamp="1575693972832">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="241" key="GridCell.Tab.0.bottom/45.24.1321.744@45.24.1321.744" timestamp="1575475878491" />
-    <state width="1275" height="241" key="GridCell.Tab.0.center" timestamp="1575475878490">
+    <state width="1275" height="510" key="GridCell.Tab.2.bottom/45.24.1321.744@45.24.1321.744" timestamp="1575693972832" />
+    <state width="1275" height="243" key="GridCell.Tab.2.bottom/45.24.2687.744@45.24.2687.744" timestamp="1575644177810" />
+    <state width="1275" height="510" key="GridCell.Tab.2.center" timestamp="1575693972831">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="241" key="GridCell.Tab.0.center/45.24.1321.744@45.24.1321.744" timestamp="1575475878490" />
-    <state width="1275" height="241" key="GridCell.Tab.0.left" timestamp="1575475878490">
+    <state width="1275" height="510" key="GridCell.Tab.2.center/45.24.1321.744@45.24.1321.744" timestamp="1575693972831" />
+    <state width="1275" height="243" key="GridCell.Tab.2.center/45.24.2687.744@45.24.2687.744" timestamp="1575644177809" />
+    <state width="1275" height="510" key="GridCell.Tab.2.left" timestamp="1575693972831">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="241" key="GridCell.Tab.0.left/45.24.1321.744@45.24.1321.744" timestamp="1575475878490" />
-    <state width="1275" height="241" key="GridCell.Tab.0.right" timestamp="1575475878491">
+    <state width="1275" height="510" key="GridCell.Tab.2.left/45.24.1321.744@45.24.1321.744" timestamp="1575693972831" />
+    <state width="1275" height="243" key="GridCell.Tab.2.left/45.24.2687.744@45.24.2687.744" timestamp="1575644177808" />
+    <state width="1275" height="510" key="GridCell.Tab.2.right" timestamp="1575693972831">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="241" key="GridCell.Tab.0.right/45.24.1321.744@45.24.1321.744" timestamp="1575475878491" />
-    <state width="1275" height="241" key="GridCell.Tab.1.bottom" timestamp="1575475878491">
+    <state width="1275" height="510" key="GridCell.Tab.2.right/45.24.1321.744@45.24.1321.744" timestamp="1575693972831" />
+    <state width="1275" height="243" key="GridCell.Tab.2.right/45.24.2687.744@45.24.2687.744" timestamp="1575644177809" />
+    <state x="243" y="41" key="Maven.ArtifactSearchDialog" timestamp="1575525459790">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="241" key="GridCell.Tab.1.bottom/45.24.1321.744@45.24.1321.744" timestamp="1575475878491" />
-    <state width="1275" height="241" key="GridCell.Tab.1.center" timestamp="1575475878491">
+    <state x="243" y="41" key="Maven.ArtifactSearchDialog/45.24.1321.744@45.24.1321.744" timestamp="1575525459790" />
+    <state x="198" y="25" width="1024" height="743" key="SettingsEditor" timestamp="1575529964624">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="241" key="GridCell.Tab.1.center/45.24.1321.744@45.24.1321.744" timestamp="1575475878491" />
-    <state width="1275" height="241" key="GridCell.Tab.1.left" timestamp="1575475878491">
+    <state x="198" y="25" width="1024" height="743" key="SettingsEditor/45.24.1321.744@45.24.1321.744" timestamp="1575529964624" />
+    <state width="660" height="386" key="XDebugger.FullValuePopup" timestamp="1575687936703">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="241" key="GridCell.Tab.1.left/45.24.1321.744@45.24.1321.744" timestamp="1575475878491" />
-    <state width="1275" height="241" key="GridCell.Tab.1.right" timestamp="1575475878491">
+    <state width="660" height="386" key="XDebugger.FullValuePopup/45.24.1321.744@45.24.1321.744" timestamp="1575687936703" />
+    <state x="47" y="34" width="1319" height="601" key="new project wizard" timestamp="1575529025285">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="241" key="GridCell.Tab.1.right/45.24.1321.744@45.24.1321.744" timestamp="1575475878491" />
-    <state x="198" y="34" key="SettingsEditor" timestamp="1575099819629">
-      <screen x="45" y="24" width="1321" height="744" />
-    </state>
-    <state x="198" y="34" key="SettingsEditor/45.24.1321.744@45.24.1321.744" timestamp="1575099819629" />
-    <state x="45" y="24" key="new project wizard" timestamp="1575207027719">
-      <screen x="45" y="24" width="1321" height="744" />
-    </state>
-    <state x="45" y="24" key="new project wizard/45.24.1321.744@45.24.1321.744" timestamp="1575207027719" />
+    <state x="47" y="34" width="1319" height="601" key="new project wizard/45.24.1321.744@45.24.1321.744" timestamp="1575529025285" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/controller/ResponseHeaderFilter.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/controller/ResponseHeaderFilter.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/Interceptor/ControllerInterceptor.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/controller/ResponseHeaderFilter.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/controller/ResponseHeaderFilter.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/controller/ResponseHeaderFilter.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,7 @@
 package com.frontline.CatalogueService.utils;
 
-public class ClientCertInvalidException {
+public class CertInvalidException extends Exception {
+    public CertInvalidException(String errorMessage){
+        super(errorMessage);
+    }
 }

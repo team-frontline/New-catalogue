@@ -13,8 +13,11 @@ import org.springframework.web.client.RestTemplate;
 import java.io.IOException;
 import java.security.cert.CertificateEncodingException;
 import java.security.cert.X509Certificate;
+import java.util.logging.Logger;
 
 public class MSchainCertHandler {
+    final static Logger logger = Logger.getLogger(MSchainCertHandler.class.toString());
+
     public  static boolean validateCertificate(String cn, X509Certificate x509Certificate) throws IOException, CertificateEncodingException {
         RestTemplate restTemplate = new RestTemplate();
 
@@ -25,27 +28,17 @@ public class MSchainCertHandler {
         MultiValueMap<String, String> map= new LinkedMultiValueMap<String, String>();
         map.add("subjectName", cn);
         map.add("cert",certString);
-        System.out.println("====================================================================================");
-        System.out.println(x509Certificate.toString());
 
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<MultiValueMap<String, String>>(map, headers);
 
+        logger.info("Validating certificate through MSChain...");
         ResponseEntity<JsonNode> response = restTemplate.postForEntity( "http://52.45.29.135:3000/api/eval", request , JsonNode.class );
         boolean validity = response.getBody().get("data").get("validity").asBoolean();
-        System.out.println("from mschain validity checker");
-        System.out.println(response.getBody().get("data").get("validity"));
-        System.out.println(response.getBody().get("sentCert"));
-        System.out.println(response.getBody().get("data").get("certString"));
-        System.out.println(certString.equals(response.getBody().get("sentCert")));
-        if(certString.equals(response.getBody().get("sentCert"))){
-            System.out.println("certs are equal");
-        }else{
-            System.out.println("certs are not equal");
-        }
-
         if(validity){
+            logger.info("Cert is validated as OK");
             return true;
         }else{
+            logger.info("Cert is validated as Invalid");
             return false;
         }
     }
