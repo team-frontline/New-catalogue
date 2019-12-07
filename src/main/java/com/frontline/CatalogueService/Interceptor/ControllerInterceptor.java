@@ -50,15 +50,15 @@ public class ControllerInterceptor implements HandlerInterceptor {
     public void postHandle(HttpServletRequest request,
                            HttpServletResponse response, Object handler,
                            ModelAndView modelAndView) throws Exception {
-        logger.info("this is interceptor, postHandle method");
+//        logger.info("this is interceptor, postHandle method");
 //        response.addHeader("Cert",CertX509Handler.stringFromCert(serverCertificate));
     }
 
     public void afterCompletion(HttpServletRequest request,
                                 HttpServletResponse response, Object handler, Exception ex)
             throws Exception {
-        logger.info("this is interceptor, afterCompletion method");
-        String h = response.getHeader("Cert");
-        System.out.println(h+"================================================");
+//        logger.info("this is interceptor, afterCompletion method");
+//        String h = response.getHeader("Cert");
+//        System.out.println(h+"================================================");
     }
 }
