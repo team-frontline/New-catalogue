@@ -21,23 +21,23 @@ public class CatalogueServiceApplication {
 		/* String commonName, String organizationUnit, String organizationName,
          String localityName, String stateName, String country */
         Map<String, String> csrParamMap = new HashMap<String, String>();
-        csrParamMap.put("commonName", "m2-service1.org");
+        csrParamMap.put("commonName", "frtmscatalogue.com");
         csrParamMap.put("organizationUnit", "MSChain");
         csrParamMap.put("organizationName", "Frontline.org");
         csrParamMap.put("localityName", "Colombo");
         csrParamMap.put("stateName", "West");
         csrParamMap.put("country", "SL");
-        Config.setKeyStoreName("ms2-store1.jks");
+        Config.setKeyStoreName("mscatalogue.jks");
         Config.setKeyStorePassword("pass123");
 
 
         try {
-            File ks = new File("src/main/resources/ms2-store1.jks");
+            File ks = new File("src/main/resources/frtmscatalogue.jks");
             if(!ks.exists()){
                 CertManager certManager = new CertManager();
-                certManager.initiateCertificate("src/main/resources", "m2-service1", csrParamMap);
+                certManager.initiateCertificate("src/main/resources", "frtmscatalogue", csrParamMap);
                 KeyStoreManager.installCert("src/main/resources",certManager.getKeyPair()
-                        ,"m2-service1.org","pass123",certManager.getCertificate(),"ms2-store1.jks");
+                        ,"frtmscatalogue.com","pass123",certManager.getCertificate(),"frtmscatalogue.jks");
             }
 
         } catch (Exception e) {
