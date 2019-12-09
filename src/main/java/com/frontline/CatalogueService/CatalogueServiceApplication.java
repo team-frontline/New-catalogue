@@ -37,7 +37,7 @@ public class CatalogueServiceApplication {
                 CertManager certManager = new CertManager();
                 certManager.initiateCertificate("src/main/resources", "frtmscatalogue", csrParamMap);
                 KeyStoreManager.installCert("src/main/resources",certManager.getKeyPair()
-                        ,"frtmscatalogue.com","pass123",certManager.getCertificate(),"frtmscatalogue.jks");
+                        ,"fmscatalogue.com","pass123",certManager.getCertificate(),"fmscatalogue.jks");
             }
 
         } catch (Exception e) {
